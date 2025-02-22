@@ -1,0 +1,48 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+a {
+  text-decoration: none !important;
+}
+.content {
+  flex: 1;
+}
+
+
+/* Custom styles for carousel arrows */
+.custom-carousel .slick-prev,
+.custom-carousel .slick-next {
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+}
+
+.custom-carousel .slick-prev:before,
+.custom-carousel .slick-next:before {
+  font-size: 40px;
+  color: #000000; /* Change this color to make arrows more visible */
+}
+
+/* Adjust position of arrows */
+.custom-carousel .slick-prev {
+  left: -60px; /* Move the left arrow outward */
+}
+
+.custom-carousel .slick-next {
+  right: -60px; /* Move the right arrow outward */
+}
+
+/* Optional: Hover effect for arrows */
+.custom-carousel .slick-prev:hover:before,
+.custom-carousel .slick-next:hover:before {
+  color: #ff4400; /* Highlight color when hovered */
+}

@@ -1,0 +1,307 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "category_id": 1,
+      "name": "iPhone",
+      "description": "Điện thoại thông minh ",
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "category_id": 2,
+      "name": "Mac",
+      "description": "Laptop ",
+      "status": "Active"
+    },
+    {
+      "id": 3,
+      "category_id": 3,
+      "name": "iPad",
+      "description": "Máy tính bảng",
+      "status": "Active"
+    },
+    {
+      "id": 4,
+      "category_id": 4,
+      "name": "Watch",
+      "description": "Đồng hồ thông minh",
+      "status": "Active"
+    },
+    {
+      "id": 5,
+      "category_id": 5,
+      "name": "Phụ kiện",
+      "description": "Tai nghe, Loa, chuột, sạc pin,....",
+      "status": "Deactive"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "name": "admin",
+      "email": "admin1@gmail.com",
+      "password": "123456",
+      "phone": "0123456789",
+      "address": "Hà Nội",
+      "role": "Admin",
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "name": "Quý",
+      "email": "qui@gmail.com",
+      "password": "123456",
+      "phone": "0763166575",
+      "address": "Hà Nội",
+      "role": "Customer",
+      "status": "Active"
+    },
+    {
+      "id": 3,
+      "user_id": 3,
+      "name": "ABC",
+      "email": "abc@gmail.com",
+      "password": "123456",
+      "phone": "1234567890",
+      "address": "FPT",
+      "role": "Customer",
+      "status": "Deactive"
+    },
+    {
+      "id": 4,
+      "user_id": 4,
+      "email": "1234@gmail.com",
+      "password": "$2a$10$WGF3adT22m4Ne439OXbnm.4ajsaGfQ6YiG9oyV5PBxOxWKfDs/SoS",
+      "name": "1234",
+      "phone": "1234567890",
+      "address": "12345",
+      "role": "Customer",
+      "status": "Deactive"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "product_id": 1,
+      "category_id": 1,
+      "name": "iPhone 16 Pro Max",
+      "description": "Điện thoại iPhone 16 Pro Max",
+      "image_url": "https://cdnv2.tgdd.vn/mwg-static//42/329149/s16/iphone-16-pro-max-desert-titan-1-638621795564494521-650x650.jpg",
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "product_id": 2,
+      "category_id": 2,
+      "name": "MacBook Air 13",
+      "description": "MacBook Air 13 inch M1",
+      "image_url": "https://cdnv2.tgdd.vn/mwg-static//42/329149/s16/iphone-16-pro-max-desert-titan-1-638621795564494521-650x650.jpg",
+      "status": "Deactive"
+    },
+    {
+      "id": 3,
+      "product_id": 3,
+      "category_id": 3,
+      "name": "iPad Air 6",
+      "description": "iPad Air 6 M2 11 inch WiFi",
+      "image_url": "https://cdnv2.tgdd.vn/mwg-static//42/329149/s16/iphone-16-pro-max-desert-titan-1-638621795564494521-650x650.jpg",
+      "status": "Active"
+    },
+    {
+      "id": 4,
+      "product_id": 4,
+      "category_id": 4,
+      "name": "Apple Watch SE 2 GPS ",
+      "description": "Apple Watch SE 2 GPS 40mm viền nhôm dây vải",
+      "image_url": "https://cdnv2.tgdd.vn/mwg-static//42/329149/s16/iphone-16-pro-max-desert-titan-1-638621795564494521-650x650.jpg",
+      "status": "Deactive"
+    },
+    {
+      "id": 5,
+      "product_id": 5,
+      "category_id": 5,
+      "name": "Loa Bluetooth",
+      "description": "Loa Bluetooth Marshall Emberton III",
+      "image_url": "https://cdnv2.tgdd.vn/mwg-static//42/329149/s16/iphone-16-pro-max-desert-titan-1-638621795564494521-650x650.jpg",
+      "status": "Active"
+    }
+  ],
+  "product_variants": [
+    {
+      "variant_id": 1,
+      "product_id": 1,
+      "name": "iPhone 16 Pro MaxMax 128GB"
+    },
+    {
+      "variant_id": 2,
+      "product_id": 1,
+      "name": "iPhone 16 Pro MaxMax 256GB"
+    },
+    {
+      "variant_id": 5,
+      "product_id": 5,
+      "name": "Loa Bluetooth Marshall Emberton III"
+    }
+  ],
+  "variant_values": [
+    {
+      "value_id": 1,
+      "variant_id": 1,
+      "stock": 100,
+      "price": 25000000,
+      "color_name": "Vàng"
+    },
+    {
+      "value_id": 2,
+      "variant_id": 2,
+      "stock": 100,
+      "price": 28000000,
+      "color_name": "Đen"
+    },
+    {
+      "value_id": 5,
+      "variant_id": 5,
+      "stock": 100,
+      "price": 28000000,
+      "color_name": "Đen"
+    }
+  ],
+  "variant_images": [
+    {
+      "image_id": 1,
+      "value_id": 1,
+      "image_url": "https://cdnv2.tgdd.vn/mwg-static//42/329149/s16/iphone-16-pro-max-desert-titan-1-638621795564494521-650x650.jpg"
+    },
+    {
+      "image_id": 2,
+      "value_id": 2,
+      "image_url": "https://cdn.mediamart.vn/images/product/apple-iphone-16-pro-max-256gb-titanium-den_6308b029.jpg"
+    }
+  ],
+  "carts": [
+    {
+      "cart_id": 1,
+      "user_id": 2,
+      "total_amount": 5000000,
+      "created_at": "2024-10-27T10:00:00.000Z",
+      "updated_at": "2024-10-27T12:00:00.000Z"
+    }
+  ],
+  "cart_items": [
+    {
+      "cart_item_id": 1,
+      "variant_id": 1,
+      "cart_id": 1,
+      "quantity": 2,
+      "total_price": 10000000,
+      "created_at": "2024-10-27T10:05:00.000Z",
+      "updated_at": "2024-10-27T10:05:00.000Z"
+    }
+  ],
+  "vouchers": [
+    {
+      "voucher_id": 1,
+      "code": "SALE10",
+      "discount_type": "percentage",
+      "discount_value": 10,
+      "start_date": "2024-10-26",
+      "end_date": "2024-11-10",
+      "usage_limit": 100,
+      "min_order_value": 1000000
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "order_id": 1,
+      "user_id": 2,
+      "voucher_id": 1,
+      "order_code": "OD12345",
+      "status": "Hoàn thành",
+      "name": "Văn Quý",
+      "phone_number": "0901234567",
+      "address": "Hanoi",
+      "created_at": "2024-10-27T13:00:00.000Z",
+      "updated_at": "2024-10-27T14:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "order_id": 2,
+      "user_id": 3,
+      "voucher_id": 1,
+      "order_code": "OD2",
+      "status": "Đã duyệt",
+      "name": "",
+      "phone_number": "",
+      "address": "Hanoi",
+      "created_at": "2024-10-27T13:00:00.000Z",
+      "updated_at": "2024-10-27T14:00:00.000Z"
+    }
+  ],
+  "order_items": [
+    {
+      "id": 1,
+      "order_item_id": 1,
+      "variant_id": 5,
+      "order_id": 1,
+      "quantity": 0,
+      "total_price": 0,
+      "created_at": "2024-10-27T13:05:00.000Z",
+      "updated_at": "2024-10-27T13:05:00.000Z"
+    },
+    {
+      "id": 2,
+      "order_item_id": 2,
+      "variant_id": 2,
+      "order_id": 2,
+      "quantity": 1,
+      "total_price": 0,
+      "created_at": "2024-10-27T13:05:00.000Z",
+      "updated_at": "2024-10-27T13:05:00.000Z"
+    }
+  ],
+  "payments": [
+    {
+      "id": 1,
+      "payment_id": 1,
+      "order_id": 1,
+      "payment_date": "2024-10-27",
+      "amount": 4500000,
+      "payment_method": "cod",
+      "payment_status": "Đã thanh toán"
+    },
+    {
+      "id": 2,
+      "payment_id": 2,
+      "order_id": 2,
+      "payment_date": "2024-10-27",
+      "amount": 4500000,
+      "payment_method": "cod",
+      "payment_status": "Chưa thanh toán"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "review_id": 1,
+      "product_id": 1,
+      "user_id": 2,
+      "order_id": 1,
+      "rating": 5,
+      "comment": "Excellent product!",
+      "created_at": "2024-10-28T09:00:00.000Z"
+    }
+  ],
+  "status_histories": [
+    {
+      "status_history_id": 1,
+      "order_id": 1,
+      "user_id": 1,
+      "status": "Đã xác nhận",
+      "updated_at": "2024-10-27T14:00:00.000Z"
+    }
+  ]
+}
