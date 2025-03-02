@@ -7,6 +7,11 @@ import OrderEditPage from "./admin/Order/OrderEditPage.jsx";
 import UserPage from "./admin/Users/UserPage.jsx";
 import UserAddPage from "./admin/Users/UserAddPage.jsx";
 import UserEditPage from "./admin/Users/UserEditPage.jsx";
+import WebsiteLayout from "./website/Layouts/WebsiteLayout.jsx";
+import Home from "./website/Home/Home.jsx";
+import Iphone from "./website/Categories/Iphone.jsx";
+import Signup from "./website/auth/Signup.jsx";
+import Signin from "./website/auth/Signin.jsx";
 
 export const router = createBrowserRouter([
   {
@@ -21,6 +26,16 @@ export const router = createBrowserRouter([
       { path: "users", element: <UserPage /> },
       { path: "users/add", element: <UserAddPage /> },
       { path: "users/edit/:id", element: <UserEditPage /> },
+    ],
+  },
+  {
+    path: "/",
+    element: <WebsiteLayout />,
+    children: [
+      { index: true, element: <Home /> },
+      { path: "iphone", element: <Iphone /> },
+      { path: "signup", element: <Signup /> },
+      { path: "signin", element: <Signin /> },
     ],
   },
 ]);

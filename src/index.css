@@ -1,9 +1,58 @@
-
 body {
   margin: 0;
   padding: 0;
 }
 
-.carousel-item{
+.carousel-item {
   min-height: 300px;
+}
+
+.text-light {
+  color: #f8f9fa !important;
+}
+
+.text-secondary {
+  color: #b0b0b0 !important;
+}
+
+.text-warning {
+  color: #ffc107 !important;
+}
+
+.bg-dark {
+  background-color: #222 !important;
+}
+
+.custom-hover {
+  transition: all 0.3s ease;
+}
+
+.custom-hover:hover {
+  background-color: #ffc107 !important;
+  color: #333 !important;
+  border-color: #ffc107 !important;
+}
+
+.category-box {
+  height: 200px;
+  background-color: #333;
+  border: 1px solid #444;
+  transition: transform 0.3s ease;
+}
+
+.category-box:hover {
+  transform: scale(1.05);
+}
+
+.hover-scale {
+  transition: transform 0.3s ease;
+}
+
+.hover-scale:hover {
+  transform: scale(1.1);
+}
+
+.signup-button:hover {
+  background-color: #444 !important;
+  color: #fff;
 }
